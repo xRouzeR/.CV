@@ -30,6 +30,6 @@ Ile utworów było wydanych w konkretnych okresach i miesiącach;
 
 Porównałem też różnice między Spotify a YouTube – które utwory lepiej sobie radziły na której platformie;
 
-Sprawdziłem łączne streamy artystów na przestrzeni lat;
+Sprawdziłem łączne streamy artystów na przestrzeni lat.
 
 
