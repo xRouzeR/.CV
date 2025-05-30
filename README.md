@@ -12,8 +12,7 @@ Wskazuje, jak premie wyglądają w zależności od kraju i dochodu;
 
 Umożliwia filtrowanie danych (np. tylko pracownicy z Brazylii, tylko marketing itd.);
 
-Cel projektu:
-Chciałem lepiej zrozumieć, jak można przedstawić dane w czytelny sposób dla osób zarządzających zespołami. Dzięki temu projektowi nauczyłem się praktycznie wykorzystywać formuły, tabele przestawne i wizualizacje danych w Excelu.
+
 
 🎵 Projekt 2: Analiza muzyki na Spotify – SQL
 Opis:
@@ -33,5 +32,4 @@ Porównałem też różnice między Spotify a YouTube – które utwory lepiej s
 
 Sprawdziłem łączne streamy artystów na przestrzeni lat;
 
-Cel projektu:
-Ten projekt pokazał mi, jak wykorzystywać SQL do pracy z większymi zestawami danych i jak odpowiadać na konkretne pytania biznesowe. Była to świetna okazja do ćwiczenia zapytań typu GROUP BY, CTE, SUM, AVG itp.
+
