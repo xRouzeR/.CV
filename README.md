@@ -1,49 +1,37 @@
+📊 Projekt 1: Analiza systemu premiowego pracowników (Excel)
 Opis:
-Projekt przedstawia system premiowania pracowników firmy ProTech Solutions na podstawie ich miesięcznych wyników. Narzędzie zostało w całości zbudowane w Microsoft Excel, z wykorzystaniem zaawansowanych funkcji analizy danych.
+Stworzyłem interaktywny dashboard w Excelu, który przedstawia, jak premie są rozdzielane w firmie (na potrzeby projektu użyta była przykładowa firma). Analiza obejmowała m.in. różnice w wysokości premii ze względu na dział, płeć, kraj, wiek oraz zarobki pracowników.
 
-Co zawiera plik Excel:
+Co potrafi dashboard:
 
-Tabela danych z wynikami pracowników (wydajność, jakość, frekwencja)
+Pokazuje średnie premie w różnych działach (np. IT, HR, marketing)
 
-Zautomatyzowany system naliczania punktów bonusowych
+Pozwala sprawdzić, czy kobiety i mężczyźni dostają podobne premie
 
-Ranking pracowników
+Wskazuje, jak premie wyglądają w zależności od kraju i dochodu
 
-Dashboard z wizualizacjami (tabele przestawne, wykresy)
-
-Użyte funkcje:
-
-Zaawansowane formuły (np. XLOOKUP, IF, SUMIFS, RANK)
-
-Tabele przestawne i dynamiczne zakresy
-
-Wbudowane wykresy do wizualizacji danych
+Umożliwia filtrowanie danych (np. tylko pracownicy z Brazylii, tylko marketing itd.)
 
 Cel projektu:
-Pokazanie, jak można stworzyć proste, ale efektywne narzędzie analityczne w Excelu – przydatne np. dla działu HR lub kierowników zespołów.
+Chciałem lepiej zrozumieć, jak można przedstawić dane w czytelny sposób dla osób zarządzających zespołami. Dzięki temu projektowi nauczyłem się praktycznie wykorzystywać formuły, tabele przestawne i wizualizacje danych w Excelu.
 
-
+🎵 Projekt 2: Analiza muzyki na Spotify – SQL
 Opis:
-Ten projekt przedstawia podsumowanie słuchania muzyki w stylu "Spotify Wrapped", wykonane wyłącznie w SQL. Dane bazują na fikcyjnych (symulowanych) rekordach z całego roku.
+Na podstawie danych o utworach z lat 1987–2024 stworzyłem serię zapytań SQL, które analizują popularność artystów i zmiany trendów muzycznych na przestrzeni lat.
 
-Zakres analizy:
+Co przeanalizowałem:
 
-Najczęściej słuchani artyści i utwory
+Top 100 najczęściej słuchanych utworów na Spotify
 
-Liczba odtworzeń per miesiąc / dzień tygodnia
+Którzy artyści mieli najwięcej streamów oraz ile mają utworów
 
-Gatunki muzyczne i czas trwania sesji odsłuchowych
+Jak zmieniała się średnia liczba odsłuchań z roku na rok
 
-Nowe odkrycia (artysta pierwszy raz słuchany w danym roku)
+Ile utworów było wydanych w konkretnych okresach i miesiącach
 
-Użyte konstrukcje SQL:
+Porównałem też różnice między Spotify a YouTube – które utwory lepiej sobie radziły na której platformie
 
-JOIN, GROUP BY, ORDER BY
-
-CTE (Common Table Expressions)
-
-Funkcje agregujące (COUNT, SUM, AVG)
-
+Sprawdziłem łączne streamy artystów na przestrzeni lat
 
 Cel projektu:
-Pokazanie umiejętności analizy danych w czystym SQL bez użycia narzędzi BI – z naciskiem na logiczne myślenie, agregacje i selekcję danych.
+Ten projekt pokazał mi, jak wykorzystywać SQL do pracy z większymi zestawami danych i jak odpowiadać na konkretne pytania biznesowe. Była to świetna okazja do ćwiczenia zapytań typu GROUP BY, CTE, SUM, AVG itp.
