@@ -4,13 +4,13 @@ Stworzyłem interaktywny dashboard w Excelu, który przedstawia, jak premie są 
 
 Co potrafi dashboard:
 
-Pokazuje średnie premie w różnych działach (np. IT, HR, marketing)
+Pokazuje średnie premie w różnych działach (np. IT, HR, marketing);
 
-Pozwala sprawdzić, czy kobiety i mężczyźni dostają podobne premie
+Pozwala sprawdzić, czy kobiety i mężczyźni dostają podobne premie;
 
-Wskazuje, jak premie wyglądają w zależności od kraju i dochodu
+Wskazuje, jak premie wyglądają w zależności od kraju i dochodu;
 
-Umożliwia filtrowanie danych (np. tylko pracownicy z Brazylii, tylko marketing itd.)
+Umożliwia filtrowanie danych (np. tylko pracownicy z Brazylii, tylko marketing itd.);
 
 Cel projektu:
 Chciałem lepiej zrozumieć, jak można przedstawić dane w czytelny sposób dla osób zarządzających zespołami. Dzięki temu projektowi nauczyłem się praktycznie wykorzystywać formuły, tabele przestawne i wizualizacje danych w Excelu.
@@ -21,17 +21,17 @@ Na podstawie danych o utworach z lat 1987–2024 stworzyłem serię zapytań SQL
 
 Co przeanalizowałem:
 
-Top 100 najczęściej słuchanych utworów na Spotify
+Top 100 najczęściej słuchanych utworów na Spotify;
 
-Którzy artyści mieli najwięcej streamów oraz ile mają utworów
+Którzy artyści mieli najwięcej streamów oraz ile mają utworów;
 
-Jak zmieniała się średnia liczba odsłuchań z roku na rok
+Jak zmieniała się średnia liczba odsłuchań z roku na rok;
 
-Ile utworów było wydanych w konkretnych okresach i miesiącach
+Ile utworów było wydanych w konkretnych okresach i miesiącach;
 
-Porównałem też różnice między Spotify a YouTube – które utwory lepiej sobie radziły na której platformie
+Porównałem też różnice między Spotify a YouTube – które utwory lepiej sobie radziły na której platformie;
 
-Sprawdziłem łączne streamy artystów na przestrzeni lat
+Sprawdziłem łączne streamy artystów na przestrzeni lat;
 
 Cel projektu:
 Ten projekt pokazał mi, jak wykorzystywać SQL do pracy z większymi zestawami danych i jak odpowiadać na konkretne pytania biznesowe. Była to świetna okazja do ćwiczenia zapytań typu GROUP BY, CTE, SUM, AVG itp.
