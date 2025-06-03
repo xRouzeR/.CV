@@ -10,7 +10,8 @@ Wskazuje, jak premie wyglądają w zależności od kraju i dochodu;
 
 Umożliwia filtrowanie danych (np. tylko pracownicy z Brazylii, tylko marketing itd.);
 
-Zrzut ekranu 2025-05-28 132308
+![Zrzut ekranu 2025-05-28 132308](https://github.com/user-attachments/assets/5fd0f674-6f84-4d01-8b5f-4084638c547a)
+
 
 🎵 Projekt 2: Analiza muzyki na Spotify – SQL Opis: Na podstawie danych o utworach z lat 1987–2024 stworzyłem serię zapytań SQL, które analizują popularność artystów i zmiany trendów muzycznych na przestrzeni lat.
 
