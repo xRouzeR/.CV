@@ -1,0 +1,115 @@
+-- Display all records
+
+SELECT * FROM spot;
+
+-- Top 100 tracks by Spotify streams in 2024
+
+SELECT * 
+FROM spot
+ORDER BY `spotify streams` DESC
+LIMIT 100;
+
+-- Total Spotify streams for each artist in 2024
+
+SELECT artist, 
+       SUM(`spotify streams`) AS `total artist streams`
+FROM spot
+GROUP BY artist
+ORDER BY `total artist streams` DESC;
+
+-- Sort tracks by release date
+
+SELECT `Release Date` 
+FROM spot
+ORDER BY `Release Date`;
+
+-- Average Spotify streams for each artist in 2024
+
+SELECT artist, 
+       AVG(`spotify streams`) AS `avg artist streams`
+FROM spot 
+GROUP BY artist
+ORDER BY `avg artist streams` DESC;
+
+-- Total number of tracks for each artist
+
+SELECT artist, 
+       COUNT(track) AS `total artist tracks`
+FROM spot 
+GROUP BY artist
+ORDER BY `total artist tracks` DESC;
+
+-- Total Spotify streams for all tracks by each artist
+
+SELECT artist, 
+       SUM(`spotify streams`) AS `artist total streams`
+FROM spot
+GROUP BY artist
+ORDER BY `artist total streams` DESC;
+
+-- Track release counts and streams over different periods
+
+SELECT COUNT(*) AS `tracks from 1987 to 2014` 
+FROM spot
+WHERE `Release Date` BETWEEN '1987-01-01' AND '2014-12-31';
+
+SELECT COUNT(*) AS `tracks from 2015 to 2019` 
+FROM spot
+WHERE `Release Date` BETWEEN '2015-01-01' AND '2019-12-31';
+
+SELECT COUNT(*) AS `tracks from 2020 to 2024` 
+FROM spot
+WHERE `Release Date` BETWEEN '2020-01-01' AND '2024-12-31';
+
+-- Number of tracks released in January
+
+SELECT COUNT(*) AS `tracks released in January`
+FROM spot
+WHERE MONTH(`Release Date`) = 1;
+
+-- Total Spotify streams for tracks released in 1987
+
+SELECT SUM(`spotify streams`) AS `streams in 1987`
+FROM spot
+WHERE YEAR(`Release Date`) = 1987;
+
+-- Average Spotify streams grouped by year
+
+SELECT YEAR(`Release Date`) AS year, 
+       AVG(`spotify streams`) AS `avg streams`
+FROM spot
+GROUP BY YEAR(`Release Date`)
+ORDER BY year;
+
+-- Average Spotify streams grouped by month
+
+SELECT MONTH(`Release Date`) AS month, 
+       AVG(`spotify streams`) AS `avg streams`
+FROM spot
+GROUP BY MONTH(`Release Date`)
+ORDER BY month;
+
+-- Comparing Spotify streams and YouTube views for each track
+
+SELECT track, 
+       artist, 
+       `spotify streams`, 
+       `youtube views`, 
+       (`spotify streams` - `youtube views`) AS `spotify-youtube difference`
+FROM spot
+ORDER BY `spotify-youtube difference` DESC;
+
+-- Performance of artist songs across years
+
+WITH `yearly views` AS (
+    SELECT artist, 
+           YEAR(`Release Date`) AS release_year, 
+           SUM(`spotify streams` + `youtube views`) AS `total streams`
+    FROM spot
+    GROUP BY artist, release_year
+)
+SELECT y.artist, 
+       y.release_year, 
+       y.`total streams`
+FROM `yearly views` y
+ORDER BY y.release_year, y.`total streams` DESC;
